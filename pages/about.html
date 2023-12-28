@@ -4,31 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>rayhan's portfolio web</title>
-    <!-- import text -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet" />
-    <!-- import icon font awesome -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="./../styles.css" />
-    <link rel="stylesheet" href="./../assets/css/responsive.css" />
-    <link rel="stylesheet" href="./../assets/css/about.css" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- *************** START OF Title Tab Bar -->
+    <title>rayhan al khair</title>
+    <link rel="icon" type="image/x-icon" href="./../assets/icons/favicon/favicon.ico" />
+    <!-- *************** END OF Title Tab Bar -->
+
+    <!-- *************** START OF Importing "Montserrat" Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet" />
+    <!-- *************** END OF Importing "Montserrat" Font Family -->
+
+    <!-- *************** START OF Importing "Awesome" Font -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css" />
+    <!-- *************** END OF Importing "Awesome" Font -->
+
+    <!-- *************** START OF Importing CSS Files -->
+    <link rel="stylesheet" href="./../styles.css" />
+    <link rel="stylesheet" href="./../assets/css/about.css" />
+    <link rel="stylesheet" href="./../assets/css/about.css" />
+    <!-- *************** END OF Importing CSS Files -->
   </head>
   <body>
-    <header>
-      <!-- navigasi dan logo -->
-      <nav>
-        <div class="logo">
-          <h2>enigma</h2>
+    <div class="about">
+      <div class="about__main">
+        <div class="__main__active">About</div>
+        <div class="__main__about">
+          Hello there! I am Muh. Rayhan Al Khair, but you can just call me Rayhan. I'm a passionate Frontend Web Developer based in Indonesia. Currently contributing to the success
+          of ZettaByte Pte. Ltd., I am actively driving advancements in ongoing projects. Beyond frontend development, my enthusiasm extends to video editing and graphic design.
+          Additionally, I am in the process of expanding my skills into backend development.
         </div>
-        <ul>
-          <li><a href="./../index.html">Home</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-          <li><a href="./about.html" class="selected">About</a></li>
-        </ul>
-      </nav>
-    </header>
+        <div class="__main__navigation">
+          <!-- *************** -->
+          <div class="__navigation__go">Go to:</div>
+          <div class="__navigation__item __navigation__home" onclick="goToHome()">Home</div>
+          <!-- <div class="__navigation__item __navigation__skills" onclick="goToSkills()">Skills</div>
+          <div class="__navigation__item __navigation__contact" onclick="goToContact()">Contact</div> -->
+          <!-- *************** -->
+        </div>
+      </div>
+      <div class="about__footer">
+        <div class="__footer__contact">
+          <div class="__contact__title">Reach me out!</div>
+          <div class="__contact__social">
+            <a href="https://www.linkedin.com/in/rayhanalkhair/" target="_blank" class="__social__item">
+              <img src="./../assets/icons/socials/linkedin.png" alt="linkedin" />
+            </a>
+            <a href="https://www.instagram.com/rayhanalkhair/" target="_blank" class="__social__item">
+              <img src="./../assets/icons/socials/instagram.png" alt="instagram" />
+            </a>
+            <a href="https://github.com/rayhanalkhair" target="_blank" class="__social__item">
+              <img src="./../assets/icons/socials/github.png" alt="github" />
+            </a>
+            <a href="mailto:muh.rayhanalkhair@gmail.com" target="_blank" class="__social__item">
+              <img src="./../assets/icons/socials/email.png" alt="email" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../scripts.js"></script>
   </body>
 </html>

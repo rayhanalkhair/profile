@@ -4,155 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>rayhan's portfolio web</title>
-    <!-- import text -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet" />
-    <!-- import icon font awesome -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- *************** START OF Title Tab Bar -->
+    <title>rayhan al khair</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon/favicon.ico" />
+    <!-- *************** END OF Title Tab Bar -->
+
+    <!-- *************** START OF Importing "Montserrat" Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet" />
+    <!-- *************** END OF Importing "Montserrat" Font Family -->
+
+    <!-- *************** START OF Importing "Awesome" Font -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css" />
+    <!-- *************** END OF Importing "Awesome" Font -->
+
+    <!-- *************** START OF Importing CSS Files -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <!-- *************** END OF Importing CSS Files -->
   </head>
   <body>
-    <header>
-      <!-- navigasi dan logo -->
-      <nav>
-        <div class="logo">
-          <h2>enigma</h2>
-        </div>
-        <ul>
-          <li><a href="./index.html" class="selected">Home</a></li>
-          <li><a href="./pages/portfolio.html">Portfolio</a></li>
-          <li><a href="./pages/contact.html">Contact</a></li>
-          <li><a href="./pages/about.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- bungkus profil -->
-      <div class="containerProfile">
-        <div class="firstContainer" id="profile">
-          <div class="sideColoumn">
-            <div class="pic">
-              <img src="./assets/pics/profile/pp.jpg" alt="" />
-            </div>
-            <div class="info1">
-              <div class="title1">
-                <h3>INFORMASI PRIBADI</h3>
-              </div>
-              <div class="name">
-                <p class="sideFont">Nama:</p>
-                <p>Muh. Rayhan Al Khair</p>
-              </div>
-              <div class="date">
-                <p class="sideFont">Tanggal Lahir:</p>
-                <p>28 Januari</p>
-              </div>
-              <div class="sex">
-                <p class="sideFont">Jenis Kelamin</p>
-                <p>Laki-laki</p>
-              </div>
-            </div>
+    <div class="home">
+      <div class="home__main">
+        <div class="__main__profile">
+          <div class="__profile__pic">
+            <img src="./assets/pics/profile/pic.jpg" alt="profile__pic" />
           </div>
-          <div class="mainColoumn">
-            <div class="fullName">
-              <span>MUH. RAYHAN AL KHAIR</span>
-              <h4>MAHASISWA</h4>
-            </div>
-            <div class="info2">
-              <div class="profile">
-                <h5>PROFIL PRIBADI</h5>
-                <p>
-                  Saya seorang mahasiswa semester 7, jurusan penyiaran di Sekolah Tinggi Multi Media "MMTC" Yogyakarta. Saya berpengalaman dalam fotografi, videografi, editing, dan
-                  desain.
-                </p>
-              </div>
-              <div class="organization">
-                <h5>PENGALAMAN ORGANISASI</h5>
-                <ul>
-                  <li>Pengurus Harian</li>
-                  <li class="detail">MIM STMM | Oktober 2018 - September 2019</li>
-                  <li>Ketua Pengurus Harian</li>
-                  <li class="detail">MIM STMM | September 2019 - Juni 2021</li>
-                  <li>Pengurus Harian</li>
-                  <li class="detail">BKPRMI Kota Baubau | September 2019 - Sekarang</li>
-                </ul>
-              </div>
-              <div class="educations">
-                <h5>RIWAYAT PENDIDIKAN</h5>
-                <ul>
-                  <li>SMA Negeri 1 Baubau</li>
-                  <li class="detail">IPA | 2015 - 2018</li>
-                  <li>Sekolah Tinggi Multi Media "MMTC" Yogyakarta</li>
-                  <li class="detail">Jurusan Penyiaran | 2018 - Sekarang</li>
-                </ul>
-              </div>
-              <div class="skills">
-                <h5>KEAHLIAN</h5>
-                <ul>
-                  <li>Adobe Photoshop</li>
-                  <li class="detail">Advanced</li>
-                  <li>Adobe Illustrator</li>
-                  <li class="detail">Intermediate</li>
-                  <li>Adobe Premiere Pro</li>
-                  <li class="detail">Intermediate</li>
-                  <li>Adobe After Effect</li>
-                  <li class="detail">Beginner</li>
-                </ul>
-              </div>
-            </div>
+          <div class="__profile__name">Muh. Rayhan Al Khair</div>
+          <div class="__profile__role">Frontend Web Developer</div>
+        </div>
+        <div class="__main__navigation">
+          <!-- *************** -->
+          <div class="__navigation__item __navigation__about" onclick="goToAbout()">About</div>
+          <!-- <div class="__navigation__item __navigation__skills" onclick="goToSkills()">Skills</div>
+          <div class="__navigation__item __navigation__contact" onclick="goToContact()">Contact</div> -->
+          <!-- *************** -->
+        </div>
+      </div>
+      <div class="home__footer">
+        <div class="__footer__contact">
+          <div class="__contact__title">Reach me out!</div>
+          <div class="__contact__social">
+            <a href="https://www.linkedin.com/in/rayhanalkhair/" target="_blank" class="__social__item">
+              <img src="./assets/icons/socials/linkedin.png" alt="linkedin" />
+            </a>
+            <a href="https://www.instagram.com/rayhanalkhair/" target="_blank" class="__social__item">
+              <img src="./assets/icons/socials/instagram.png" alt="instagram" />
+            </a>
+            <a href="https://github.com/rayhanalkhair" target="_blank" class="__social__item">
+              <img src="./assets/icons/socials/github.png" alt="github" />
+            </a>
+            <a href="mailto:muh.rayhanalkhair@gmail.com" target="_blank" class="__social__item">
+              <img src="./assets/icons/socials/email.png" alt="email" />
+            </a>
           </div>
         </div>
       </div>
-      <!-- bungkus porto -->
-      <div class="containerPorto" id="porto">
-        <div class="secondContainer">
-          <div class="title2">
-            <h3>Portfolio</h3>
-          </div>
-          <div class="pics">
-            <ul class="pic">
-              <li><img src="./assets/pics/portofolio/1.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/2.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/3.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/4.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/5.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/6.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/7.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/8.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/9.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/10.jpg" alt="" /></li>
-              <li><img src="./assets/pics/portofolio/11.jpg" alt="" /></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="title3">
-          <h2>enigma</h2>
-          <h4>Follow my Social Media</h4>
-        </div>
-        <div class="social">
-          <a href="https://web.facebook.com/RayhanAlKhair" class="btn facebook">
-            <span class="fa fa-facebook"></span>
-          </a>
-          <a href="https://twitter.com/birukehu" class="btn twitter">
-            <span class="fa fa-twitter"></span>
-          </a>
-          <a href="https://api.whatsapp.com/send/?phone=6285156406610&text&app_absent=0" class="btn whatsapp">
-            <span class="fa fa-whatsapp"></span>
-          </a>
-          <a href="https://www.instagram.com/rayhanalkhair/" class="btn instagram">
-            <span class="fa fa-instagram"></span>
-          </a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>copyright<span class="fa fa-copyright"></span> 2021 rayhanalkhair.</p>
-      </div>
-    </footer>
+    </div>
+
+    <script src="./scripts.js"></script>
   </body>
 </html>
