@@ -1,4 +1,4 @@
-# Profile v1.0.0
+# Profile v2.0.0
 
 ![Profile](preview.png)
 
