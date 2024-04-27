@@ -1,0 +1,14 @@
+/* ****************** Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hack", Helvetica, sans-serif;
+  overflow-x: hidden;
+  color: #000;
+}
+
+body {
+  height: 100vh;
+  background-color: #d7dde2;
+}

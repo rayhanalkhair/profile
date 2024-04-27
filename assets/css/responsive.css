@@ -1,0 +1,73 @@
+@media screen and (max-width: 479px) {
+  .__profile__name {
+    font-size: 1.5rem;
+  }
+
+  .__profile__role {
+    font-size: 1rem;
+  }
+
+  .about__main {
+    transform: translateY(20%);
+  }
+
+  .__main__navigation > .__navigation__item {
+    width: 100px;
+    font-size: 0.75rem;
+  }
+
+  .__main__navigation > .__navigation__item:hover {
+    width: 100px;
+    font-size: 0.75rem;
+  }
+
+  .__main__active {
+    width: 100px;
+    font-size: 0.75rem;
+  }
+
+  .__social__item img {
+    height: 2rem;
+  }
+
+  .__contact__title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .__profile__name {
+    font-size: 2rem;
+  }
+
+  .__profile__role {
+    font-size: 1.25rem;
+  }
+
+  .about__main {
+    transform: translateY(50%);
+  }
+
+  .__main__navigation > .__navigation__item {
+    width: 150px;
+    font-size: 1rem;
+  }
+
+  .__main__navigation > .__navigation__item:hover {
+    width: 150px;
+    font-size: 1rem;
+  }
+
+  .__main__active {
+    width: 150px;
+    font-size: 1rem;
+  }
+
+  .__social__item img {
+    height: 2.5rem;
+  }
+
+  .__contact__title {
+    font-size: 1.25rem;
+  }
+}
