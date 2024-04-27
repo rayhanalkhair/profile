@@ -10,6 +10,10 @@ function goToSkills() {
   window.open('/pages/skills.html', '_self');
 }
 
+function goToProjects() {
+  window.open('/pages/projects.html', '_self');
+}
+
 function goToContact() {
   window.open('/pages/contact.html', '_self');
 }
